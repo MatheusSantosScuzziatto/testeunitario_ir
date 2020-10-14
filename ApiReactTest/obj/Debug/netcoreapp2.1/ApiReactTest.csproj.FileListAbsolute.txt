@@ -1,0 +1,15 @@
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\bin\Debug\netcoreapp2.1\ApiReactTest.deps.json
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\bin\Debug\netcoreapp2.1\ApiReactTest.runtimeconfig.json
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\bin\Debug\netcoreapp2.1\ApiReactTest.runtimeconfig.dev.json
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\bin\Debug\netcoreapp2.1\ApiReactTest.dll
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\bin\Debug\netcoreapp2.1\ApiReactTest.pdb
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\obj\Debug\netcoreapp2.1\ApiReactTest.csprojAssemblyReference.cache
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\obj\Debug\netcoreapp2.1\ApiReactTest.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\obj\Debug\netcoreapp2.1\ApiReactTest.AssemblyInfoInputs.cache
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\obj\Debug\netcoreapp2.1\ApiReactTest.AssemblyInfo.cs
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\obj\Debug\netcoreapp2.1\ApiReactTest.dll
+C:\Users\mathe\source\repos\ApiReact\ApiReactTest\obj\Debug\netcoreapp2.1\ApiReactTest.pdb
