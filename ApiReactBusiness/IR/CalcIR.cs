@@ -50,7 +50,12 @@ namespace ApiReactBusiness.IR
             double percent_faixa = 0;
             double aliquota_faixa = 0;
 
-            if (meu_salario_liquidado >= 1903.99 && meu_salario_liquidado <= 2826.65)
+            if(meu_salario_liquidado < 1903.99)
+            {
+                percent_faixa = 0;
+                aliquota_faixa = 0;
+            }
+            else if (meu_salario_liquidado >= 1903.99 && meu_salario_liquidado <= 2826.65)
             {
                 percent_faixa = 7.5;
                 aliquota_faixa = 142.80;
@@ -77,15 +82,19 @@ namespace ApiReactBusiness.IR
             return faixa_aliquota;
         }
 
-        public double calcula_ir(double meu_salario)
+        public double calcula_ir(double meu_salario, int qt_dependentes)
         {
+            //Abatimento de INSS e dedução dos dependentes legais
             double meu_salario_liquidado = abater_inss(meu_salario);
+            meu_salario_liquidado -= (189.59 * qt_dependentes);
 
+            //Definir percentual faixa e alíquota da base cálculo
             double[] faixa_aiquota = calcula_faixa_aliquota(meu_salario_liquidado);
             double percent_faixa = faixa_aiquota[0];
             double aliquota_faixa = faixa_aiquota[1];
 
-            double ir_retido = (meu_salario_liquidado * percent_faixa) - aliquota_faixa;
+            //IRRF
+            double ir_retido = ((meu_salario_liquidado * percent_faixa) / 100) - aliquota_faixa;
 
             return ir_retido;
         }
